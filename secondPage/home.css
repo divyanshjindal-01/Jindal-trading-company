@@ -1,0 +1,25 @@
+.navbar{
+    width: 100%;
+    height: 2rem;
+    border: 2px solid black;
+}
+.store-details{
+    width: 100%;
+    height: 4rem;
+    border: 2px solid black;
+}
+.advertisment{
+    width: 100%;
+    height: 14rem;
+    border: 2px solid black;
+}
+.daily-products{
+    width: 100%;
+    height: 14rem;
+    border: 2px solid black;
+}
+.topProducts{
+    width: 100%;
+    height: 14rem;
+    border: 2px solid black;
+}
