@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jindal Traders</title>
-    <link rel="stylesheet" href="home.css">
+    <!-- <link rel="stylesheet" href="home.css"> -->
+     <style>
+        .highlight{
+    color: red;
+}
+     </style>
 </head>
 <body>
 <!-- div for navbar -->
@@ -82,6 +87,22 @@
         </div>
     </div>
 </body>
-<script src="home.js"></script>
+<script>
+    let itemName =  document.querySelectorAll("#itemName");
+let searchBar = document.getElementById("searchBox");
+const item = document.querySelectorAll(".itemName");
+
+searchBar.addEventListener('input',()=>{
+    const searchValue = searchBar.value.toLowerCase();
+
+    item.forEach(item =>{
+        if(item.textContent.toLowerCase().includes(searchValue)){
+            item.classList.add('highlight');
+        }else{
+            item.classList.remove('highlight');
+        }
+    });
+});
+</script>
 
 </html>
