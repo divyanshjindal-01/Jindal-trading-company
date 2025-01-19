@@ -1,87 +1,79 @@
+<!-- https://dribbble.com/shots/19614098-E-Commerce-website-e-commerce-Product-Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jindal Traders</title>
-    <link rel="stylesheet" href="home.css">
+    <title>jindalstore</title>
 </head>
 <body>
-<!-- div for navbar -->
-    <div class="navbar">
-        <input id="searchBox" type="text" placeholder="search...">
+<!-- Header tag started to store the element view on top of the website  -->
+<header>
+
+    <div id="offerpanel">
+        <span id="contact"><a href="https://wa.me/+918510082292">whatsApp</a></span>
+        <span id="offer">Get 20%off on your first order</span>
+        <span id="language">
+            <select id="options" name="language">
+                <option value="english">english</option>
+                <option value="spanish">spanish</option>
+                <option value="hindi">hindi</option>
+                <option value="russian">russian</option>
+            </select>
+        </span>
+        <span id="location">
+            <select id="places" name="country">
+                <option value="India">India</option>
+                <option value="spain">spain</option>
+                <option value="America">America</option>
+                <option value="Russia">Russia</option>
+            </select>
+        </span>
     </div>
 
-<!-- div for store details -->
-    <div class="store-details"></div>
 
-<!-- div for advertisment -->
-    <div class="advertisment">
-        <div class="index"></div>
-        <div class="display"></div>
-        <div class="offers"></div>
+    <div id="navbar">
+    <!-- a span to store the navbar logo -->
+        <span id="navbarLogo"></span>
+
+    <!-- a span to store the navbar search -->
+        <span id="navbarSearch">
+            <input type="text" name="search" placeholder="search...">
+            <!--add search icon here....-->
+        </span>
+
+    <!-- a span to store the navbar account -->
+        <span id="account">
+            <!--add account icon here-->
+            Account
+        </span>
+
+    <!-- a span to store the navbar cart -->
+        <span id="cart">
+            <!--add cart icon here-->
+            Cart
+        </span>
     </div>
 
-    <!-- div for daily products -->
-    <div class="daily-products">
-        <!--item div-->
-        <div class="product">
-            <ul class="itemList">
-                <li>image</li>
-                <li class="itemName">mango</li>
-                <li>price</li>
-             </ul>
-            <button class="addtocart">Add To Cart</button>
-        </div>
-        <!--item div-->
-        <div class="product">
-            <ul class="itemList">
-                <li>image</li>
-                <li class="itemName">grapes</li>
-                <li>price</li>
-             </ul>
-            <button class="addtocart">Add To Cart</button>
-        </div>
-        <!--item div-->
-        <div class="product">
-            <ul class="itemList">
-                <li>image</li>
-                <li class="itemName">orange</li>
-                <li>price</li>
-             </ul>
-            <button class="addtocart">Add To Cart</button>
-        </div>
-        <!-- div for top products -->
-    <div class="topProducts">
-        <!--item div-->
-        <div class="product">
-            <ul class="itemList">
-                <li>image</li>
-                <li class="itemName">kiwi</li>
-                <li>price</li>
-             </ul>
-            <button class="addtocart">Add To Cart</button>
-        </div>
-        <!--item div-->
-        <div class="product">
-            <ul class="itemList">
-                <li>image</li>
-                <li class="itemName">pomegranet</li>
-                <li>price</li>
-             </ul>
-            <button class="addtocart">Add To Cart</button>
-        </div>
-        <!--item div-->
-        <div class="product">
-            <ul class="itemList">
-                <li>image</li>
-                <li class="itemName">apple</li>
-                <li>price</li>
-             </ul>
-            <button class="addtocart">Add To Cart</button>
-        </div>
+
+</header>   
+
+
+<main>
+
+
+    <div class="itemDisplay">
+        
     </div>
+
+</main>
+
+
+<footer>
+
+    
+</footer>
+    
 </body>
 <script src="home.js"></script>
-
 </html>
