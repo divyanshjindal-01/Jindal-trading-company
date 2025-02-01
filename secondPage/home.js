@@ -1,31 +1,28 @@
-const itemDisplay = document.querySelector(".itemDisplay");
+const itemDisplayInCircle = document.querySelector(".circle_catogery");
 
-const template = (imageUrl ,names, price) => `
+const template = (imageUrl ) => `
         <div class="item">
             <div class="item_image">
-                <img src="${imageUrl}" alt="${names}'s Image" style="width: 200px; height: auto;">
+                <img src="${imageUrl}">
             </div>
-            <div class="item_name">${names}</div>
-            <div class="item_price">${price}</div>
-            <button class="addToCart" id="${names}">add to cart</button>
         </div>
 `;
 
 const items =[
-    {imageUrl:"../images/diddyOil.jpeg" ,names: "Diddy Oil" ,price: "$63"},
-    {imageUrl:"../images/images.jpeg" ,names: "salt" ,price: "$28"},
-    {imageUrl:"../images/maagi.jpeg" ,names: "maagi" ,price: "$15"},
-    {imageUrl:"../images/milk.jpeg" ,names: "milk" ,price: "$34"},
-    {imageUrl:"../images/tea.jpeg" ,names: "tea" ,price: "$120"},
-    {imageUrl:"../images/bread.jpg" ,names: "bread" ,price: "$10"}
+    {imageUrl:"../images/diddyOil.jpeg" },
+    {imageUrl:"../images/images.jpeg" },
+    {imageUrl:"../images/maagi.jpeg" },
+    {imageUrl:"../images/milk.jpeg" },
+    {imageUrl:"../images/tea.jpeg" },
+    {imageUrl:"../images/bread.jpg" }
 ];
 
-if(itemDisplay){
+if(itemDisplayInCircle){
 items.forEach(item => {
-    const result = template(item.imageUrl ,item.names, item.price);
-    itemDisplay.innerHTML +=result;
+    const result = template(item.imageUrl);
+    itemDisplayInCircle.innerHTML +=result;
 
 });
 }else{
-    console.error("Container element with class 'itemDisplay' not found.");
+    console.error("Container element with class 'itemDisplayInCircle' not found.");
 }
