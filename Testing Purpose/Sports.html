@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports</title>
+</head>
+<body>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+    }
+  .conatiner-product{
+  margin-top:20px;
+  height:auto;
+  width:100%;
+  padding:20px;
+  margin:10px;
+  white-space:nowrap ;
+    overflow-x: auto;
+    overflow-y: hidden;
+  background: #722F37;
+}
+h1{
+  color:brown;
+}
+.conatiner-product::-webkit-scrollbar{
+  display:none;
+}
+
+.product-card {
+border: 1px solid #ccc;
+height: auto;
+width: 400px;
+padding: 20px;
+margin: 20px;
+text-align: center;
+overflow: hidden;
+display: inline-block;
+}
+
+.product-image {
+max-width: 100%;
+height: auto;
+margin-bottom: 10px;
+}
+
+.product-name {
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 6px;
+}
+
+.product-rating {
+color: #fdbc00; /* Gold color for stars */
+}
+
+.product-reviews {
+font-size: 14px;
+color: #888;
+margin-bottom: 10px;
+}
+
+.product-sales {
+font-size: 14px;
+color: #007bff; /* Blue color for sales */
+margin-bottom: 10px;
+}
+
+.product-price {
+font-size: 20px;
+font-weight: bold;
+color: #000;
+}
+
+.product-old-price {
+font-size: 14px;
+color: #888;
+text-decoration: line-through;
+margin-left: 5px;
+}
+
+.product-discount {
+background-color: #007bff;
+color: #fff;
+padding: 5px 10px;
+border-radius: 5px;
+margin-top: 10px;
+}
+/* next page css */
+.next-page a {
+    display: inline-block;
+    padding: 15px 16px;
+    margin: 5px;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.next-page a:hover {
+    background: #007bff;
+    color: white;
+}
+/* From Uiverse.io by cssbuttons-io */ 
+button {
+  --color: #560bad;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+  border-radius: 10px;
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+button:hover {
+  color: #fff;
+}
+
+button:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+button:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+button:active:before {
+  background: #3a0ca3;
+  /* transition: background ease0s; */
+}
+
+  </style>
+  <i><h1>All Sports!</h1></i>
+  
+<div class="conatiner-product">
+  <div class="product-card  ">
+     <img src="" alt="Product Image" class="product-image">
+     <div class="product-name">TIMEWEAR </div>
+      <div>
+       Analog Day Date Functioning Stainless Steel Chain Watch for Men
+      </div> 
+     <div class="product-rating">
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+     </div>
+    
+     <div class="product-price">₹319</div>
+     <div class="product-old-price">₹1,799</div>
+     <a href="#"><button class="btn">Add To Cart</button></a> 
+     <!-- Add item to Wishlist -->
+     <span class="wishlist-icon">
+      <i class="fa-solid fa-heart"></i></span>
+
+
+   </div>
+   <div class="product-card">
+    <img src="13.jpg" alt="Product Image" class="product-image">
+    <div class="product-name">TIMEWEAR </div>
+     <div>
+      Analog Day Date Functioning Stainless Steel Chain Watch for Men
+     </div> 
+    <div class="product-rating">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+   
+    <div class="product-price">₹319</div>
+    <div class="product-old-price">₹1,799</div>
+    <a href="#"><button class="btn">Add To Cart</button></a> 
+  </div>
+  <div class="product-card">
+    <img src="13.jpg" alt="Product Image" class="product-image">
+    <div class="product-name">TIMEWEAR </div>
+     <div>
+      Analog Day Date Functioning Stainless Steel Chain Watch for Men
+     </div> 
+    <div class="product-rating">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+   
+    <div class="product-price">₹319</div>
+    <div class="product-old-price">₹1,799</div>
+    <a href="#"><button class="btn">Add To Cart</button></a> 
+  </div>
+  
+  <div class="product-card">
+    <img src="13.jpg" alt="Product Image" class="product-image">
+    <div class="product-name">TIMEWEAR </div>
+     <div>
+      Analog Day Date Functioning Stainless Steel Chain Watch for Men
+     </div> 
+    <div class="product-rating">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+   
+    <div class="product-price">₹319</div>
+    <div class="product-old-price">₹1,799</div>
+    <a href="#"><button class="btn">Add To Cart</button></a> 
+  </div>
+  
+   <div class="product-card">
+     <img src="13.jpg" alt="Product Image" class="product-image">
+     <div class="product-name">TIMEWEAR </div>
+      <div>
+       Analog Day Date Functioning Stainless Steel Chain Watch for Men
+      </div> 
+     <div class="product-rating">
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+     </div>
+    
+     <div class="product-price">₹319</div>
+     <div class="product-old-price">₹1,799</div>
+     <a href="#"><button class="btn">Add To Cart</button></a> 
+   </div>
+  
+   <div class="product-card">
+     <img src="13.jpg" alt="Product Image" class="product-image">
+     <div class="product-name">TIMEWEAR </div>
+      <div>
+       Analog Day Date Functioning Stainless Steel Chain Watch for Men
+      </div> 
+     <div class="product-rating">
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+     </div>
+    
+     <div class="product-price">₹319</div>
+     <div class="product-old-price">₹1,799</div>
+     <a href="#"><button class="btn">Add To Cart</button></a> 
+   </div>
+
+   <div class="product-card">
+    <img src="13.jpg" alt="Product Image" class="product-image">
+    <div class="product-name">TIMEWEAR </div>
+     <div>
+      Analog Day Date Functioning Stainless Steel Chain Watch for Men
+     </div> 
+    <div class="product-rating">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+   
+    <div class="product-price">₹319</div>
+    <div class="product-old-price">₹1,799</div>
+    <a href="#"><button class="btn">Add To Cart</button></a> 
+  </div>
+
+  <div class="product-card">
+    <img src="13.jpg" alt="Product Image" class="product-image">
+    <div class="product-name">TIMEWEAR </div>
+     <div>
+      Analog Day Date Functioning Stainless Steel Chain Watch for Men
+     </div> 
+    <div class="product-rating">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div>
+   
+    <div class="product-price">₹319</div>
+    <div class="product-old-price">₹1,799</div>
+    <a href="#"><button class="btn">Add To Cart</button></a> 
+  </div>
+  
+  
+  </div>
+  <div class="next-page">
+    <a href="#">←</a>
+    <a href="page1.html">1</a>
+    <a href="page2.html">2</a>
+    <a href="page3.html">3</a>
+    <a href="#">→</a>
+</div>
+<a href="http://127.0.0.1:5501/HomePage.html"><button>Back To Home</button></a> 
+
+</body>
+</html>

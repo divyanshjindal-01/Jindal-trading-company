@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rating and Review</title>
+ 
+</head>
+<body>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  margin-left: 8em;
+  margin-top: 3em;
+  padding: 0;
+  display: flex;
+  background-color: #f4f4f4;
+}
+.container {
+  display: flex;
+  width: 100%;
+}
+.sidebar{
+  width: 250px;
+
+background: #1a2a6c; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d); 
+  padding: 20px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.profile {
+  text-align: center;
+}
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar ul li {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  /* background: #e4e4e4; */
+  cursor: pointer;
+  border:3px solid;
+  text-align: center;
+  border-radius: 10px;
+  border-top-color: blue; 
+  border-bottom-color: blue; 
+  border-left-color: brown; 
+  border-right-color:brown;   
+}
+.sidebar ul .active {
+  background: #007bff;
+  color: white;
+}
+
+
+/* wishlist */
+.wishlist-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:100%;
+  
+    margin:2em;
+}
+
+h2 {
+    margin: 0 0 15px;
+}
+
+.wishlist-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.wishlist-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.assured {
+    color: #0073e6;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 8px;
+}
+
+.discount {
+    color: green;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.delete-icon {
+    cursor: pointer;
+    font-size: 2em;
+    color: black;
+}
+
+    </style>
+  <div class="container">
+    <aside class="sidebar">
+        <div class="profile">
+            <img src="systemm - Copy.jpg" alt="Profile Picture">
+            <h2> Hello! Aryan</h2>
+        </div>
+        <nav>
+            <ul>
+              
+              <li class="active">My personal Info</li>
+                <li>My Orders</li>
+                <li>Returns & Cancel</li>
+                <li>My Rating & Reviews</li>
+                <li>My Wishlist</li>
+                <li>Payment</li>
+                <li>Change Password</li>
+
+            </ul>
+        </nav>
+
+    </aside>
+    <main class="content">
+        <div class="wishlist-container">
+            <h2>My Rating & Reviews (1)</h2>
+            <div class="wishlist-item">
+                <img src="systemm - Copy.jpg" alt="Timex Watch">
+                <div class="item-details">
+                    <p class="title">TIMEX Automatic Silver Dial Analog Watch - For Men</p>
+                    <p class="assured"><span class="icon">✔</span> Assured</p>
+                    <p class="price">₹6,499 <span class="old-price">₹10,295</span> <span class="discount">36% off</span></p>
+                </div>
+                <span class="delete-icon">🗑</span>
+            </div>
+        </div>
+       </main>
+</div>
+</body>
+</html>
