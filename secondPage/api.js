@@ -5,19 +5,19 @@ const products_container4 = document.querySelector(".products_display4");
 
 
 async function asa() {
-    const url = 'https://real-time-amazon-data.p.rapidapi.com/influencer-post-products?influencer_name=madison.lecroy&post_id=amzn1.ideas.382NVFBNK3GGQ';
-    const options = {
-        method: 'GET',
-        headers: {
-            'x-rapidapi-key': '0756dabcdfmsh6ed6e61ef736c82p1e45bbjsn9beef3bbf41b',
-            'x-rapidapi-host': 'real-time-amazon-data.p.rapidapi.com'
-        }
-    };
+    const url = 'https://real-time-amazon-data.p.rapidapi.com/product-details?asin=B07ZPKBL9V&country=US';
+const options = {
+	method: 'GET',
+	headers: {
+		'x-rapidapi-key': '0756dabcdfmsh6ed6e61ef736c82p1e45bbjsn9beef3bbf41b',
+		'x-rapidapi-host': 'real-time-amazon-data.p.rapidapi.com'
+	}
+};
 
     try {
         const response = await fetch(url, options);
         const result = await response.json();
-        console.log(result);
+         console.log(result);
 
         if (result.data && result.data.products) {
             const products = result.data.products;
