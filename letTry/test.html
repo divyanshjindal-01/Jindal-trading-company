@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce</title>
+  <link rel="stylesheet" href="test.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo-div">
+      <img src="../images/logo.jpg" alt="logo">
+    </div>
+    <div class="search-div">
+      <input id="searchbar"  type="text" placeholder="Search For Products Brand and More">
+      <button>Search</button>
+    </div>
+    <div class="nav-links">
+      <span>👤 Profile</span>
+      <span>🛒 Order & Returns</span>
+      <span>😍 Wishlist</span>
+
+    </div>
+  </div>
+  
+  <div class="searchResult" hidden>
+
+  </div>
+
+  <div class="sidebar">
+    <ul>
+      <li>👕 CLOTHING</li>
+      <li>💻 ELECTRONICS</li>
+      <li>👞 SHOES</li>
+      <li>⌚ WATCHES</li>
+      <li>💍 JEWELLERY</li>
+      <li>🏥 HEALTH AND BEAUTY</li>
+      <li>🧸 KIDS AND BABIES</li>
+      <li>🎾 SPORTS</li>
+      <li>🏡 Home_andGarden</li>
+    </ul>
+  </div>
+  <div class="main-content">
+    <div class="banner">
+
+    </div>
+  </div>
+
+
+  <div class="itemCatogery">
+
+    <div class="catogery">
+      <button id="grocery" onclick="show_catogery(grocery);">
+        <img class="catogery_image"
+          src="https://hips.hearstapps.com/hmg-prod/images/healthy-groceries-bag-66eaef810acf6.jpg?crop=1.00xw:0.892xh;0,0.0399xh&resize=1200:*"
+          alt="grocery"> </button>
+    </div>
+    <div class="catogery">
+      <button id="Fashion" onclick="show_catogery(Fashion);">
+        <img class="catogery_image"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyTICIqxB6O9U3g8OzfKQws8zip7eHuZrWNg&s"
+          alt="Fashion"> </button>
+    </div>
+    <div class="catogery">
+      <button id="Skin_care" onclick="show_catogery(Skin_care);">
+        <img class="catogery_image"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqFj0K1R06tlOoqRSoAB9UtbbwpoV7p8cnXg&s"
+          alt="Skin_care"> </button>
+    </div>
+    <div class="catogery">
+      <button id="Electronics" onclick="show_catogery(Electronics);">
+        <img class="catogery_image"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZW2iQNBFnQvAJZ7bTlKRPsRpOOIVmiVoDXg&s"
+          alt="Electronics"> </button>
+    </div>
+    <div class="catogery">
+      <button id="Home_andGarden" onclick="show_catogery(Home_andGarden);">
+        <img class="catogery_image"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf0omM4xiSLnf-TZOxiPpy664P7qbzZXzBzw&s"
+          alt="Home_andGarden"> </button>
+    </div>
+    <div class="catogery">
+      <button id="Tools" onclick="show_catogery(Tools);">
+        <img class="catogery_image"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT-KAK7GnkCzSX0Acu819LSBxtGRzdPJGajg&s"
+          alt="Tools">
+      </button>
+    </div>
+
+  </div>
+
+  <!-- New Arrivals -->
+  <div class="newArrivals">
+    <div class="arrivals">
+      <a target="_blank"
+        href="https://www.gonoise.com/collections/stoopid-cupid-sale-2025?utm_source=google&utm_medium=cpc&utm_campaign=1469850407&tw_source=google&tw_adid=731744208849&tw_campaign=1469850407&gad_source=1&gclid=CjwKCAiA2JG9BhAuEiwAH_zf3rrrqZNT_FryMz1VR23QIrJN0vv9l2lBhGt5s45aq1SPvjxfM6gdQBoCvM0QAvD_BwE">
+        <img
+          src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/1f04c6ce-68e4-4b61-89e0-4bbaa06d424b.__CR0,0,600,450_PT0_SX600_V1___.png"></a>
+    </div>
+    <div class="arrivals">
+      <a target="_blank" href="https://www.coca-colacompany.com/"> <img
+          src="https://www.coca-cola.com/content/dam/onexp/mv/en/home-image/desktop1.jpg"></a>
+    </div>
+    <div class="arrivals">
+      <a target="_blank"
+        href="https://www.samsung.com/in/smartphones/galaxy-s25-ultra/?page=home&srsltid=AfmBOop0Rjl8sS8OI5mm96yfNEXuCAsi3jsQAxfTcui3__0aeoogpmf9">
+        <img
+          src="https://img.global.news.samsung.com/global/wp-content/uploads/2024/07/Samsung-Mobile-Flip6-Fold6-Ring-Watch-Ultra-Watch7-Buds3-series-Announcement-News_main1.jpg"></a>
+    </div>
+  </div>
+
+
+  <!-- Items div -->
+  <div class="product-container"></div>
+  <!-- Advertisment 2 -->
+  <h1> Newely arrived</h1>
+  <div class="newArrivals2">
+    <div class="arrivals2">
+      <a target="_blank"
+        href="https://news.samsung.com/in/samsung-launches-its-ai-enabled-connected-ai-ecobubble-washing-machine-range-for-2022-with-ai-wash-machine-learning-adds-high-capacity-models">
+        <img src="https://img.global.news.samsung.com/in/wp-content/uploads/2022/05/11861_WM_Banner_3000x2000.jpg"
+          alt="washing machine">
+      </a>
+    </div>
+
+    <div class="arrivals2">
+      <a target="_blank" href="https://www.epicurious.com/expert-advice/the-best-home-espresso-machine-article">
+        <img
+          src="https://assets.epicurious.com/photos/62741684ef40ea9d3866a0be/16:9/w_2560%2Cc_limit/breville-bambino-espresso-maker_HERO_050422_8449_VOG_Badge_final.jpg"
+          alt="coffee machine">
+      </a>
+    </div>
+
+  </div>
+  <!-- Items Divs 2 -->
+
+  <div class="product-container"></div>
+
+  <!-- Items Div3 -->
+  <div class="product-container"></div>
+
+  <h1>supornship</h1>
+  <div class="supornship">
+    <div class="supornsers">
+      <!-- <img src="1.jpg" alt="photo"> -->
+
+    </div>
+    <div class="supornsers">
+      <!-- <img src="2.jpg" alt="photo"> -->
+    </div>
+    <div class="supornsers">
+      <!-- <img src="3.jpg" alt=""> -->
+    </div>
+    <div class="supornsers">
+      <!-- <img src="4.jpg" alt=""> -->
+    </div>
+
+  </div>
+
+  <!-- footer Of the website  -->
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a target="_blank" href="#">about us</a></li>
+            <li><a target="_blank" href="#">our services</a></li>
+            <li><a target="_blank" href="#">privacy policy</a></li>
+            <li><a target="_blank" href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a target="_blank" href="#">FAQ</a></li>
+            <li><a target="_blank" href="#">shipping</a></li>
+            <li><a target="_blank" href="#">returns</a></li>
+            <li><a target="_blank" href="#">order status</a></li>
+            <li><a target="_blank" href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a target="_blank" href="#">watch</a></li>
+            <li><a target="_blank" href="#">bag</a></li>
+            <li><a target="_blank" href="#">shoes</a></li>
+            <li><a target="_blank" href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="products.js"></script>
+<script src="store.js"></script>
+<script src="advertisment.js"></script>
+
+</html>
