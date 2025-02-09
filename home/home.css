@@ -65,7 +65,7 @@ body {
   height: 50px;
   width:140px;
 }
-.sidebar ul {
+.sidebar ul { 
   list-style: none;
   padding: 0;
 }
@@ -92,14 +92,14 @@ body {
   border: 3px solid #24262b;
 }
 /* circle Div */
-.itemCatogery{
+.itemcategory{
   display:flex;
   margin-left:20px;
   margin-right:20px;
  
   
 }
-.catogery{
+.category{
   height:200px;
   width:200px;
   border:2px solid black;
@@ -108,14 +108,14 @@ body {
   margin:20px;
  
 }
-.catogery img{
+.category img{
   object-fit: cover;
   object-position: center;
   height:200px;
   width:200px;
   border-radius:50%;
 }
-.catogery button{
+.category button{
   object-fit: cover;
   object-position: center;
   justify-items: center;

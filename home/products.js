@@ -5,7 +5,7 @@ window.products = [
         "price":"$34.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"grocery"
+        "category":"grocery"
     },
     {
         "product_image":"https://www.jiomart.com/images/product/original/490007879/english-oven-sandwich-bread-400-g-pack-product-images-o490007879-p591193865-0-202312190138.jpg?im=Resize=(420,420)",
@@ -13,7 +13,7 @@ window.products = [
         "price":"$55.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"grocery"
+        "category":"grocery"
     },
     {
         "product_image":"https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-111947553/111947553.jpg",
@@ -21,7 +21,7 @@ window.products = [
         "price":"$45.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"grocery"
+        "category":"grocery"
     },
     {
         "product_image":"https://organicmandya.com/cdn/shop/files/WheatFlour_2_d5040959-2597-46e6-93c4-3c44c4b1f273.jpg?v=1738134260&width=900",
@@ -29,7 +29,7 @@ window.products = [
         "price":"$360.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"grocery"
+        "category":"grocery"
     },
     {
         "product_image":"https://m.media-amazon.com/images/I/71FqcvjgkNL.jpg",
@@ -37,7 +37,7 @@ window.products = [
         "price":"$2000.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Fashion"
+        "category":"Fashion"
     },
     {
         "product_image":"https://m.media-amazon.com/images/I/61yKpU3IofL._AC_UY1100_.jpg",
@@ -45,7 +45,7 @@ window.products = [
         "price":"$350.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Fashion"
+        "category":"Fashion"
     },
     {
         "product_image":"https://pantproject.com/cdn/shop/files/DSC4562_800x.jpg?v=1725448361",
@@ -53,7 +53,7 @@ window.products = [
         "price":"$400.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Fashion"
+        "category":"Fashion"
     },
     {
         "product_image":"https://www.thealternate.in/cdn/shop/products/31.jpg?v=1641795734",
@@ -61,7 +61,7 @@ window.products = [
         "price":"$1200.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Fashion"
+        "category":"Fashion"
     },
     {
         "product_image":"https://images.mamaearth.in/catalog/product/u/b/ubtan-face-wash_1_1_2.jpeg?format=auto&height=600",
@@ -69,7 +69,7 @@ window.products = [
         "price":"$200.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Skin_care"
+        "category":"Skin_care"
     },
     {
         "product_image":"https://images.mamaearth.in/catalog/product/v/i/vitamin-c-oil-moisturizer-with-box-_-ingredients-copy.jpg?format=auto&height=600",
@@ -77,7 +77,7 @@ window.products = [
         "price":"$106.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Skin_care"
+        "category":"Skin_care"
     },
     {
         "product_image":"https://images.mamaearth.in/catalog/product/v/i/vit_c_glow_sunscreen1_white_bg_1.jpg?format=auto&height=600",
@@ -85,7 +85,7 @@ window.products = [
         "price":"$300.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Skin_care"
+        "category":"Skin_care"
     },
     {
         "product_image":"https://images.mamaearth.in/catalog/product/u/b/ubtan_face_scrub_1.jpg?format=auto&height=600",
@@ -93,7 +93,7 @@ window.products = [
         "price":"$150.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Skin_care"
+        "category":"Skin_care"
     },
     {
         "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTm9gtj_B48UTU0c8jfj-s9-6KL6sl4wyFbw&s",
@@ -101,7 +101,7 @@ window.products = [
         "price":"$.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Electronics"
+        "category":"Electronics"
     },
     {
         "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSur_7P50mZYilVbPy9IYyg4Je7qEsv9XpeQ&s",
@@ -109,7 +109,7 @@ window.products = [
         "price":"$2000.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Electronics"
+        "category":"Electronics"
     },
     {
         "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPyWlEQTSiG4slmOVwvRbbNmjtHEn0J1xedw&s",
@@ -117,7 +117,7 @@ window.products = [
         "price":"$35000.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Electronics"
+        "category":"Electronics"
     },
     {
         "product_image":"https://images-eu.ssl-images-amazon.com/images/I/61IcgmgE25L._AC_UL600_SR600,600_.jpg",
@@ -125,7 +125,7 @@ window.products = [
         "price":"$12000.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Electronics"
+        "category":"Electronics"
     },
     {
         "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ34Wx3uH8yXJfZh7zmzKYlQApyvi0NzpI1sg&s",
@@ -133,7 +133,7 @@ window.products = [
         "price":"$710.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Tools"
+        "category":"Tools"
     },
     {
         "product_image":"https://cheston.in/cdn/shop/files/715U1tt0jQL.jpg?v=1738527528",
@@ -141,7 +141,7 @@ window.products = [
         "price":"$5199.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Tools"
+        "category":"Tools"
     },
     {
         "product_image":"https://images.meesho.com/images/products/268944015/i3uaq_512.webp",
@@ -149,7 +149,7 @@ window.products = [
         "price":"$601.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Tools"
+        "category":"Tools"
     },
     {
         "product_image":"https://m.media-amazon.com/images/I/41zoNoqDF6L.jpg",
@@ -157,7 +157,7 @@ window.products = [
         "price":"$120.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Tools"
+        "category":"Tools"
     },
     {
         "product_image":"https://assets.ajio.com/medias/sys_master/root/20230314/A2ei/640f8f8af997dde6f4f6e0d2/-1117Wx1400H-465909525-white-MODEL.jpg",
@@ -165,7 +165,7 @@ window.products = [
         "price":"$1200.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Home_andGarden"
+        "category":"Home_andGarden"
     },
     {
         "product_image":"https://m.media-amazon.com/images/I/812n+f4dtmL.jpg",
@@ -173,7 +173,7 @@ window.products = [
         "price":"$600.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Home_andGarden"
+        "category":"Home_andGarden"
     },
     {
         "product_image":"https://m.media-amazon.com/images/I/81qbb-u3fHL.jpg",
@@ -181,7 +181,7 @@ window.products = [
         "price":"$1000.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Home_andGarden"
+        "category":"Home_andGarden"
     },
     {
         "product_image":"https://5.imimg.com/data5/SELLER/Default/2021/4/MP/OV/AR/31937136/kaleen-carpet-500x500.jpg",
@@ -189,7 +189,7 @@ window.products = [
         "price":"$55000.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Home_andGarden"
+        "category":"Home_andGarden"
     },
     {
         "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi8GUcLiVLy8i3oEI5MbixPPCRUR0Au0U0JA&s",
@@ -197,7 +197,7 @@ window.products = [
         "price":"$40.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"grocery"
+        "category":"grocery"
     },
     {
         "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6iQ9dlc0aIdCoEG0BWHqMQmFI8lsX4QfzOg&s",
@@ -205,7 +205,7 @@ window.products = [
         "price":"$20.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"grocery"
+        "category":"grocery"
     },
     {
         "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl38WKCwBDvw_Qvk1AG2Q4ibljiDRB_M5rGA&s",
@@ -213,7 +213,7 @@ window.products = [
         "price":"$599.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Fashion"
+        "category":"Fashion"
     },
     {
         "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCxhDUoTR_vt0uCxKOs8UkHE_KUnmZ5sUFwg&s",
@@ -221,7 +221,7 @@ window.products = [
         "price":"$651.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Fashion"
+        "category":"Fashion"
     },
     {
         "product_image":"https://pixies.in/media/catalog/product/cache/e9780188a08ae15edb442fcb34502371/m/a/mamaearth_rose_water_face_toner_.jpg",
@@ -229,7 +229,7 @@ window.products = [
         "price":"$379.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Skin_care"
+        "category":"Skin_care"
     },
     {
         "product_image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1725959433/Croma%20Assets/Communication/Mobiles/Images/309695_0_hpoykn.png?tr=w-640",
@@ -237,7 +237,7 @@ window.products = [
         "price":"$74900.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Electronics"
+        "category":"Electronics"
     },
     {
         "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS82yCYogYqlCDv_QPMXJvJVu_qJXtpxUHX4A&s",
@@ -245,7 +245,7 @@ window.products = [
         "price":"$67990.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Electronics"
+        "category":"Electronics"
     },
     {
         "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdP95cto0_5PTZU3KdS9ODbKepshfFcu0Alw&s",
@@ -253,7 +253,7 @@ window.products = [
         "price":"$199.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Home_andGarden"
+        "category":"Home_andGarden"
     },
     {
         "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7_vXZ1ihn15T1FMOOjXy1wHbBQu0yXXMOg&s",
@@ -261,7 +261,7 @@ window.products = [
         "price":"$61531.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Home_andGarden"
+        "category":"Home_andGarden"
     },
     {
         "product_image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdJ28G9P-btos7RDkE6EVix1YckQojW2k78w&s",
@@ -269,11 +269,7 @@ window.products = [
         "price":"$399.00",
         "brand_name":"jindal pvt ltd",
         "delevery_time":"07 feb",
-        "catogery":"Tools"
+        "category":"Tools"
     }
 
 ]
-// window.products2 = 
-// window.products3 = [
-    
-// ]

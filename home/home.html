@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>E-Commerce</title>
-  <link rel="stylesheet" href="test.css">
+  <link rel="stylesheet" href="home.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -35,15 +35,12 @@
 
   <div class="sidebar">
     <ul>
-      <li>👕 CLOTHING</li>
-      <li>💻 ELECTRONICS</li>
-      <li>👞 SHOES</li>
-      <li>⌚ WATCHES</li>
-      <li>💍 JEWELLERY</li>
-      <li>🏥 HEALTH AND BEAUTY</li>
-      <li>🧸 KIDS AND BABIES</li>
-      <li>🎾 SPORTS</li>
-      <li>🏡 Home_andGarden</li>
+      <li> <button class="grocery" onclick="show_category('grocery');"> grocery </button> </li>
+      <li> <button class="Fashion" onclick="show_category('Fashion');"> Fashion </button> </li>
+      <li> <button class="Skin_care" onclick="show_category('Skin_care');"> Skin_care </button> </li>
+      <li> <button class="Electronics" onclick="show_category('Electronics');"> Electronics </button> </li>
+      <li> <button class="Home_andGarden" onclick="show_category('Home_andGarden');"> Home_andGarden  </button> </li>
+      <li> <button class="Tools" onclick="show_category('Tools');"> Tools </button> </li>
     </ul>
   </div>
   <div class="main-content">
@@ -53,40 +50,40 @@
   </div>
 
 
-  <div class="itemCatogery">
+  <div class="itemcategory">
 
-    <div class="catogery">
-      <button id="grocery" onclick="show_catogery(grocery);">
-        <img class="catogery_image"
+    <div class="category">
+      <button class="grocery" onclick="show_category('grocery');">
+        <img class="category_image"
           src="https://hips.hearstapps.com/hmg-prod/images/healthy-groceries-bag-66eaef810acf6.jpg?crop=1.00xw:0.892xh;0,0.0399xh&resize=1200:*"
           alt="grocery"> </button>
     </div>
-    <div class="catogery">
-      <button id="Fashion" onclick="show_catogery(Fashion);">
-        <img class="catogery_image"
+    <div class="category">
+      <button class="Fashion" onclick="show_category('Fashion');">
+        <img class="category_image"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyTICIqxB6O9U3g8OzfKQws8zip7eHuZrWNg&s"
           alt="Fashion"> </button>
     </div>
-    <div class="catogery">
-      <button id="Skin_care" onclick="show_catogery(Skin_care);">
-        <img class="catogery_image"
+    <div class="category">
+      <button class="Skin_care" onclick="show_category('Skin_care');">
+        <img class="category_image"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqFj0K1R06tlOoqRSoAB9UtbbwpoV7p8cnXg&s"
           alt="Skin_care"> </button>
     </div>
-    <div class="catogery">
-      <button id="Electronics" onclick="show_catogery(Electronics);">
-        <img class="catogery_image"
+    <div class="category">
+      <button class="Electronics" onclick="show_category('Electronics');">
+        <img class="category_image"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZW2iQNBFnQvAJZ7bTlKRPsRpOOIVmiVoDXg&s"
           alt="Electronics"> </button>
     </div>
-    <div class="catogery">
-      <button id="Home_andGarden" onclick="show_catogery(Home_andGarden);">
-        <img class="catogery_image"
+    <div class="category">
+      <button class="Home_andGarden" onclick="show_category('Home_andGarden');">
+        <img class="category_image"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf0omM4xiSLnf-TZOxiPpy664P7qbzZXzBzw&s"
           alt="Home_andGarden"> </button>
     </div>
-    <div class="catogery">
-      <button id="Tools" onclick="show_catogery(Tools);">
+    <div class="category">
+      <button class="Tools" onclick="show_category('Tools');">
         <img class="catogery_image"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT-KAK7GnkCzSX0Acu819LSBxtGRzdPJGajg&s"
           alt="Tools">
